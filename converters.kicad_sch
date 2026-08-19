@@ -3558,6 +3558,18 @@
 		)
 		(uuid "2750ea56-62fc-4f57-8d22-8f86932dd654")
 	)
+	(text "R5 = 100k\nR4 = 100k((3V3/0.8V) - 1) = 312.5k. USE 312k\nR3 = 100k, from datasheet"
+		(exclude_from_sim no)
+		(at 176.53 84.836 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "3b418c98-29bc-4ff1-9986-811f973fe8d4")
+	)
 	(text "LED VF=2V"
 		(exclude_from_sim no)
 		(at 189.484 114.3 0)
@@ -3588,6 +3600,16 @@
 			)
 		)
 		(uuid "69c1eaf7-a2ec-43b7-9a8d-fec0b27547ea")
+	)
+	(text "DC SUPPLY FOR DEBUG & TESTING"
+		(exclude_from_sim no)
+		(at 64.008 151.892 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "749e11c7-34cc-4417-ad01-c5257c87c168")
 	)
 	(text "POWER INDICATION LEDs"
 		(exclude_from_sim no)
@@ -5328,7 +5350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100k"
 			(at 241.3 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6261,7 +6283,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100k"
 			(at 222.25 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8424,7 +8446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "312k"
 			(at 241.3 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)

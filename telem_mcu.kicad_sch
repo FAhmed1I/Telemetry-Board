@@ -3685,24 +3685,12 @@
 		(uuid "4bb6192a-2f05-4382-89b2-77bf073c9be9")
 	)
 	(no_connect
-		(at 163.83 114.3)
-		(uuid "4cd3ee79-21cb-42dd-b216-dc9ae28547c6")
-	)
-	(no_connect
 		(at 123.19 81.28)
 		(uuid "57298a7f-0a98-4e58-9d75-3e0bbd935386")
 	)
 	(no_connect
 		(at 163.83 106.68)
 		(uuid "5a186637-d438-4564-a883-3209bf0d0327")
-	)
-	(no_connect
-		(at 163.83 83.82)
-		(uuid "613c1a77-eb47-4d66-947d-da7a752a7024")
-	)
-	(no_connect
-		(at 163.83 104.14)
-		(uuid "71b1c59c-02e4-48e3-ba44-104b4d873274")
 	)
 	(no_connect
 		(at 123.19 88.9)
@@ -3719,10 +3707,6 @@
 	(no_connect
 		(at 163.83 129.54)
 		(uuid "e29ad497-2537-4287-877e-c20c1eb15fe6")
-	)
-	(no_connect
-		(at 163.83 81.28)
-		(uuid "e6ae09a9-a65f-4613-b38b-736fab5ab98f")
 	)
 	(no_connect
 		(at 123.19 101.6)
@@ -3873,6 +3857,16 @@
 			(type default)
 		)
 		(uuid "129af799-f21a-4015-82e3-f4bb94978df2")
+	)
+	(wire
+		(pts
+			(xy 163.83 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1415158c-4254-4296-a1e8-4ae610122097")
 	)
 	(wire
 		(pts
@@ -4153,6 +4147,16 @@
 			(type default)
 		)
 		(uuid "3f002ef0-4a77-4ce0-846d-7b7d88364c71")
+	)
+	(wire
+		(pts
+			(xy 163.83 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdb335b-0aac-421a-be2e-a5c356623483")
 	)
 	(wire
 		(pts
@@ -4443,6 +4447,16 @@
 			(type default)
 		)
 		(uuid "7582bdc7-a7f5-4bc1-b07d-0129bfbf99f7")
+	)
+	(wire
+		(pts
+			(xy 163.83 104.14) (xy 168.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778defe7-12c7-4864-8e35-9dd39d5c466d")
 	)
 	(wire
 		(pts
@@ -5166,6 +5180,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 81.28) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe279014-70f5-478f-93fa-a2b17ada1e8d")
+	)
+	(wire
+		(pts
 			(xy 92.71 80.01) (xy 101.6 80.01)
 		)
 		(stroke
@@ -5424,6 +5448,17 @@
 		)
 		(uuid "d50281f7-f561-4d30-adcf-e1de7fe02b14")
 	)
+	(hierarchical_label "GPS_SDA"
+		(shape output)
+		(at 168.91 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "374c0e6e-2792-484d-bc98-5c8cbefb9ac3")
+	)
 	(hierarchical_label "IMU_CS"
 		(shape output)
 		(at 168.91 71.12 0)
@@ -5490,6 +5525,17 @@
 		)
 		(uuid "8568c053-64d0-4ee7-895e-f96d26d804d1")
 	)
+	(hierarchical_label "GPS_SCL"
+		(shape input)
+		(at 168.91 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89a2bda3-cfc1-417c-839e-0970cbd70f39")
+	)
 	(hierarchical_label "BMP_SCX"
 		(shape output)
 		(at 168.91 116.84 0)
@@ -5512,6 +5558,17 @@
 		)
 		(uuid "be6657b3-7fd7-4fc6-a62a-1715a80819a9")
 	)
+	(hierarchical_label "GPS_RST"
+		(shape output)
+		(at 168.91 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be9854be-28ef-4a1c-8541-63f939d354f2")
+	)
 	(hierarchical_label "IMU_SPC"
 		(shape output)
 		(at 168.91 73.66 0)
@@ -5522,6 +5579,17 @@
 			(justify left)
 		)
 		(uuid "c6408a20-b9eb-4d98-9537-ea01561ad172")
+	)
+	(hierarchical_label "GPS_TP"
+		(shape input)
+		(at 168.91 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de21ede6-bfb6-456f-9acf-b044b14211d4")
 	)
 	(hierarchical_label "IMU_SDI"
 		(shape output)
