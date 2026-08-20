@@ -5,6 +5,17 @@
 	(uuid "71a96c1a-3810-48e8-8b77-829a22b612db")
 	(paper "A4")
 	(lib_symbols)
+	(text "LAYER 1 - SIGNAL\nLAYER 2 - SOLID GND\nLAYER 3 - POWER\nLAYER 4 - SIGNAL"
+		(exclude_from_sim no)
+		(at 94.234 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d31a100a-b1db-4a9b-a702-70c840dd4022")
+	)
 	(wire
 		(pts
 			(xy 90.17 93.98) (xy 102.87 93.98)
