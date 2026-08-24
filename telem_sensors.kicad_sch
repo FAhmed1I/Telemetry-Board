@@ -5544,7 +5544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55935-0210_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55935-0230_1x02_P2.00mm_Horizontal"
 			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +6257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55935-0210_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55935-0230_1x02_P2.00mm_Horizontal"
 			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
