@@ -1,2 +1,7 @@
 *.lck
 production/
+*.bak
+*.backup
+*.old
+*~
+Telemetry Box-backups/
