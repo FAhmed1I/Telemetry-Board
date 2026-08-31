@@ -3240,7 +3240,7 @@
 		)
 		(uuid "73e6617c-cf4c-4fea-993f-0a3d7257a416")
 	)
-	(text "3V3 to 1V8"
+	(text "+3V3 to 1V8"
 		(exclude_from_sim no)
 		(at 115.316 111.252 0)
 		(effects
@@ -3250,7 +3250,7 @@
 		)
 		(uuid "2750ea56-62fc-4f57-8d22-8f86932dd654")
 	)
-	(text "R5 = 100k\nR4 = 100k((3V3/0.8V) - 1) = 312.5k. USE 312k\nR3 = 100k, from datasheet"
+	(text "R5 = 100k\nR4 = 100k((+3V3/0.8V) - 1) = 312.5k. USE 312k\nR3 = 100k, from datasheet"
 		(exclude_from_sim no)
 		(at 111.76 83.566 0)
 		(effects
@@ -3283,7 +3283,7 @@
 		)
 		(uuid "6978e341-9129-493f-bf5c-1b3175c56210")
 	)
-	(text "5V to 3V3"
+	(text "5V to +3V3"
 		(exclude_from_sim no)
 		(at 117.602 42.418 0)
 		(effects
@@ -3372,12 +3372,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c488188d-5433-42ff-81c6-3b4b446d92b8")
-	)
-	(junction
-		(at 189.23 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0544b4-4a0c-4dfe-a0ac-b27263cd48b4")
 	)
 	(junction
 		(at 151.13 124.46)
@@ -3509,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 53.34) (xy 189.23 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d44e3c-f92f-4dc1-8309-cee07ddf608a")
-	)
-	(wire
-		(pts
 			(xy 19.05 184.15) (xy 19.05 187.96)
 		)
 		(stroke
@@ -3589,16 +3573,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 53.34) (xy 194.31 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5243da60-e3df-42cd-aa0a-e71c45b3a323")
-	)
-	(wire
-		(pts
 			(xy 62.23 27.94) (xy 59.69 27.94)
 		)
 		(stroke
@@ -3636,16 +3610,6 @@
 			(type default)
 		)
 		(uuid "60ba47d0-cd94-4c06-85db-291295d9e6d6")
-	)
-	(wire
-		(pts
-			(xy 194.31 53.34) (xy 194.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639744ff-44b5-4b6c-b349-81a38285740f")
 	)
 	(wire
 		(pts
@@ -3836,16 +3800,6 @@
 			(type default)
 		)
 		(uuid "b0af2f86-d22a-4687-a6fa-aa9af64700fa")
-	)
-	(wire
-		(pts
-			(xy 189.23 53.34) (xy 189.23 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b182b957-11d0-413b-a0cf-d833ab77ad50")
 	)
 	(wire
 		(pts
@@ -4087,7 +4041,7 @@
 		)
 		(uuid "ff4a3e1b-e3ef-4bee-9f9c-24eb7d076dcf")
 	)
-	(label "5_3V3_VOS"
+	(label "5_+3V3_VOS"
 		(at 152.4 55.88 0)
 		(effects
 			(font
@@ -4097,7 +4051,7 @@
 		)
 		(uuid "2b679ef8-e8f6-4326-a1f1-9c7d11e1b85a")
 	)
-	(label "5_3V3_PG"
+	(label "5_+3V3_PG"
 		(at 161.29 60.96 0)
 		(effects
 			(font
@@ -4107,7 +4061,7 @@
 		)
 		(uuid "82172acb-6c0b-47da-a005-156b1f3268b5")
 	)
-	(label "5_3V3_FB"
+	(label "5_+3V3_FB"
 		(at 161.29 63.5 0)
 		(effects
 			(font
@@ -4117,7 +4071,7 @@
 		)
 		(uuid "df3bd598-7705-46d2-a03b-ceb0d263c919")
 	)
-	(label "5_3V3_SW"
+	(label "5_+3V3_SW"
 		(at 152.4 53.34 0)
 		(effects
 			(font
@@ -6740,84 +6694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 194.31 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e0b7c8d-9880-4b34-a886-6cd7fd3c405a")
-		(property "Reference" "#PWR022"
-			(at 194.31 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCU_VDDA"
-			(at 194.31 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 194.31 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11151ea1-a5f7-47d5-8e3e-7161f3e4ad90")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/e1044467-df55-4773-adfc-6bc275c0743b"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 52.07 130.81 0)
 		(unit 1)
@@ -7390,84 +7266,6 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/e1044467-df55-4773-adfc-6bc275c0743b"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 189.23 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3fcda84-fd5c-42b2-bb10-3bcbb6b4d84c")
-		(property "Reference" "#PWR021"
-			(at 189.23 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCU_VDD"
-			(at 189.23 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 189.23 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb422c95-4117-4d02-94c1-818af786213a")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/e1044467-df55-4773-adfc-6bc275c0743b"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
