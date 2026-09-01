@@ -282,7 +282,7 @@
 	)
 	(text "LAYER 1 - SIGNAL\nLAYER 2 - SOLID GND\nLAYER 3 - POWER\nLAYER 4 - SIGNAL"
 		(exclude_from_sim no)
-		(at 94.234 72.136 0)
+		(at 77.724 45.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -300,16 +300,6 @@
 			(type default)
 		)
 		(uuid "1532a230-c2f4-47f5-a04c-2d04d4bd52a2")
-	)
-	(wire
-		(pts
-			(xy 90.17 124.46) (xy 102.87 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b32331-17f5-40c9-b87a-0b424b3841a0")
 	)
 	(wire
 		(pts
@@ -340,6 +330,26 @@
 			(type default)
 		)
 		(uuid "57104194-d151-4030-916f-1acc7df540db")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 102.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a408aa-57b4-4e7d-9fd0-f7a607b6afd6")
+	)
+	(wire
+		(pts
+			(xy 96.52 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783a5743-432e-4b28-9771-456fa479d089")
 	)
 	(wire
 		(pts
@@ -393,6 +403,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 59.69) (xy 99.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2c9ff0-84f2-4add-8cdd-e6de5e903479")
+	)
+	(wire
+		(pts
 			(xy 90.17 113.03) (xy 102.87 113.03)
 		)
 		(stroke
@@ -403,6 +423,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 59.69) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d56f41-0604-4799-b130-2da02994849d")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca60c61-4eff-41d1-914d-f6ce4db4002b")
+	)
+	(wire
+		(pts
 			(xy 90.17 96.52) (xy 102.87 96.52)
 		)
 		(stroke
@@ -410,6 +450,16 @@
 			(type default)
 		)
 		(uuid "cf7af4cc-4620-4d36-bc3a-f3901e4e082b")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ffca66-a015-43d4-8fd8-3382aa612efc")
 	)
 	(wire
 		(pts
@@ -430,6 +480,16 @@
 			(type default)
 		)
 		(uuid "d78e29e2-afc2-4588-9032-f030af00e264")
+	)
+	(wire
+		(pts
+			(xy 96.52 62.23) (xy 96.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e885d68f-3403-4b3d-8c5f-8e998c3bf6ba")
 	)
 	(wire
 		(pts
@@ -756,8 +816,8 @@
 		)
 	)
 	(sheet
-		(at 41.91 86.36)
-		(size 48.26 48.26)
+		(at 41.91 76.2)
+		(size 48.26 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -772,7 +832,7 @@
 		)
 		(uuid "4934a171-4738-440d-a87b-8b8a12e79f2a")
 		(property "Sheetname" "Sensors"
-			(at 41.91 85.6484 0)
+			(at 41.91 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -794,7 +854,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 41.91 86.36 0)
+			(at 41.91 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -943,8 +1003,8 @@
 		)
 	)
 	(sheet
-		(at 102.87 86.36)
-		(size 50.8 48.26)
+		(at 102.87 76.2)
+		(size 50.8 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -959,7 +1019,7 @@
 		)
 		(uuid "bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b")
 		(property "Sheetname" "MCU"
-			(at 102.87 85.6484 0)
+			(at 102.87 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1110,6 +1170,26 @@
 				(justify left)
 			)
 		)
+		(pin "USB_DN" bidirectional
+			(at 102.87 82.55 180)
+			(uuid "ecc770e3-575d-423f-9611-bdbb6cca6dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 102.87 80.01 180)
+			(uuid "810678c1-e95e-43b7-9acc-ef21a6e5567b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db"
@@ -1119,7 +1199,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 64.77)
+		(at 43.18 52.07)
 		(size 43.18 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1135,7 +1215,7 @@
 		)
 		(uuid "e1044467-df55-4773-adfc-6bc275c0743b")
 		(property "Sheetname" "Converters"
-			(at 41.91 64.0584 0)
+			(at 43.18 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1146,7 +1226,7 @@
 			)
 		)
 		(property "Sheetfile" "converters.kicad_sch"
-			(at 41.91 81.8646 0)
+			(at 43.18 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1157,7 +1237,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 41.91 64.77 0)
+			(at 43.18 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1165,6 +1245,26 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 86.36 62.23 0)
+			(uuid "0d0dbe16-60b8-41bb-8795-a917a667fb00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 86.36 59.69 0)
+			(uuid "709b785d-e30a-4403-b41b-d3981825d97b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

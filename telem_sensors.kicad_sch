@@ -2845,6 +2845,10 @@
 		(uuid "04338cd8-f9b7-4bf5-8c1c-91d41caa88d0")
 	)
 	(no_connect
+		(at 71.12 95.25)
+		(uuid "17281b7a-ddb4-4590-9d84-ee74be20bb70")
+	)
+	(no_connect
 		(at 177.8 106.68)
 		(uuid "2ef5d1a3-3f65-4b49-b2a9-b95b9517e9db")
 	)
@@ -4082,17 +4086,6 @@
 		)
 		(uuid "d2a7c423-0b41-41d6-8c76-a7aa1c389224")
 	)
-	(hierarchical_label "IMU_INT"
-		(shape output)
-		(at 71.12 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e23e2cb4-4792-4e47-9aa1-3ff2a1256fc9")
-	)
 	(hierarchical_label "IMU_SPC"
 		(shape input)
 		(at 124.46 90.17 0)
@@ -4553,7 +4546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.2352 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6095,7 +6088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6177,7 +6170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.1952 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7679,7 +7672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.3252 99.06 0)
 			(hide yes)
 			(show_name no)
