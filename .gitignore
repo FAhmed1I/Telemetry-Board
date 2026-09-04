@@ -1,10 +1,20 @@
+# Editor / tool local history
+.history/
+
+# KiCad lock files
 *.lck
-production/
+
+# Backup files
 *.bak
 *.backup
 *.old
 *~
 Telemetry Box-backups/
+
+# Build output
+production/
+
+# Vendor/reference files not tracked in repo
 License.txt
 fabrication-toolkit-options.json
 how-to-import.htm
