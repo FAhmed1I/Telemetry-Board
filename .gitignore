@@ -5,3 +5,6 @@ production/
 *.old
 *~
 Telemetry Box-backups/
+License.txt
+fabrication-toolkit-options.json
+how-to-import.htm
