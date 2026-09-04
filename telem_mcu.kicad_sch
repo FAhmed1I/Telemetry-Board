@@ -3025,7 +3025,7 @@
 	)
 	(text "NRST Circuit"
 		(exclude_from_sim no)
-		(at 34.29 121.666 0)
+		(at 24.13 120.904 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3056,10 +3056,10 @@
 		(uuid "0ea58dbd-e6d8-4128-a1f2-64277b8365d8")
 	)
 	(junction
-		(at 31.75 29.21)
+		(at 19.05 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16f65f67-8f59-4259-8a42-acade26c739c")
+		(uuid "17bdb0b0-9dd0-4e4d-b181-e2d84a8db16c")
 	)
 	(junction
 		(at 44.45 58.42)
@@ -3074,12 +3074,6 @@
 		(uuid "51b8abec-cf31-4ce4-996b-c575675733bd")
 	)
 	(junction
-		(at 19.05 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63d8b8ac-3cfc-4705-aa41-e0efa02a32f4")
-	)
-	(junction
 		(at 120.65 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3092,16 +3086,16 @@
 		(uuid "71a43e1b-990a-4699-8e01-53b5cb0c57d4")
 	)
 	(junction
+		(at 31.75 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72ff2df5-3bf1-459c-921a-ee304f132480")
+	)
+	(junction
 		(at 44.45 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77b7d367-9a95-4c80-8634-b56b27c3ba4c")
-	)
-	(junction
-		(at 59.69 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79eb77f0-b968-4b8f-835a-b67029b87865")
 	)
 	(junction
 		(at 156.21 125.73)
@@ -3116,6 +3110,12 @@
 		(uuid "7d3b09d3-d9ed-4d8f-8680-5cf6ca90fe1c")
 	)
 	(junction
+		(at 34.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85410714-e127-4480-9042-b09f1b5c7d24")
+	)
+	(junction
 		(at 120.65 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3128,12 +3128,6 @@
 		(uuid "a874797a-1377-4648-bd0e-2c138d605378")
 	)
 	(junction
-		(at 34.29 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab331a4d-3c05-4579-9c66-2c5efea0ce4e")
-	)
-	(junction
 		(at 158.75 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3144,6 +3138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e05960e1-a1be-413f-b6a4-6070059350d9")
+	)
+	(junction
+		(at 59.69 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1240800-8c97-45c4-a01e-d1cb3f548726")
 	)
 	(no_connect
 		(at 176.53 105.41)
@@ -3714,16 +3714,6 @@
 			(type default)
 		)
 		(uuid "6a5a3330-5b8d-405d-a930-4d0074267726")
-	)
-	(wire
-		(pts
-			(xy 31.75 29.21) (xy 44.45 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca3b5d0-8ba7-4c79-bc7e-5f339272d032")
 	)
 	(wire
 		(pts
@@ -4324,6 +4314,16 @@
 			(type default)
 		)
 		(uuid "f098abad-5d9b-4b99-b91f-cbcb79c096d9")
+	)
+	(wire
+		(pts
+			(xy 31.75 29.21) (xy 44.45 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f427a6c9-18cc-4c6c-b8e7-c81216b2f080")
 	)
 	(wire
 		(pts
@@ -5157,6 +5157,17 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 44.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bb84f6a-9eed-43ab-ad91-4626585a3e9c")
 		)
@@ -5167,6 +5178,98 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 19.05 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "111acc3d-c5c0-4a49-99a0-c8fe53017751")
+		(property "Reference" "C37"
+			(at 22.86 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 22.86 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 20.0152 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 19.05 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 22.86 36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0cb7ed30-2ab2-4756-a34d-e166821845fc")
+		)
+		(pin "2"
+			(uuid "4d51755f-4443-4212-8404-62e3273fda82")
+		)
+		(instances
+			(project "Telemetry Box"
+				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -5404,88 +5507,6 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 54.61 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a388406-eafb-4f6d-8105-5320ecbe9e80")
-		(property "Reference" "C11"
-			(at 58.42 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 58.42 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 55.5752 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 54.61 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a4eb321-0f9e-49e3-8b8a-b09cff0eb4ad")
-		)
-		(pin "2"
-			(uuid "1dfe0cbb-c040-436f-b076-bea0838b77a7")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6199,7 +6220,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 208.28 142.24 0)
+		(at 44.45 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6207,10 +6228,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61a6e275-64f2-491c-952a-acd6c3963f19")
-		(property "Reference" "C18"
-			(at 212.09 140.9699 0)
+		(uuid "5ea7a355-468f-4d0b-82e0-9c7746a08b72")
+		(property "Reference" "C34"
+			(at 48.26 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6221,7 +6241,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 212.09 143.5099 0)
+			(at 48.26 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6232,7 +6252,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 209.2452 146.05 0)
+			(at 45.4152 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +6263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 142.24 0)
+			(at 44.45 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 208.28 142.24 0)
+			(at 44.45 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6264,16 +6284,27 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 48.26 36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "16c670de-3ac2-4fc5-957e-8ed448f7020f")
+			(uuid "d7aed7d4-82c7-424b-996a-180050f68c47")
 		)
 		(pin "2"
-			(uuid "2e808326-af36-479c-b2cd-46c88af531e7")
+			(uuid "d6d0338e-6491-4028-b1b7-5b1f75244561")
 		)
 		(instances
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C18")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -6431,6 +6462,98 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75cbe8fe-8603-40fc-8a60-c4aca7a722d0")
+		(property "Reference" "C36"
+			(at 35.56 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 35.56 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 32.7152 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 35.56 36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f2ec1ee4-655e-4ce8-9ffb-e0ffc7363a46")
+		)
+		(pin "2"
+			(uuid "ee303cba-fa08-4262-9615-88bff4e2055f")
+		)
+		(instances
+			(project "Telemetry Box"
+				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6979,7 +7102,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90172948-3180-4b6d-970d-542a17c8edea")
 		(property "Reference" "C8"
 			(at 35.56 62.2299 0)
@@ -7034,6 +7156,17 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 35.56 66.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -7131,88 +7264,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9523372f-6a4d-43ed-b99e-c7eb04f9872f")
-		(property "Reference" "C9"
-			(at 48.26 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 48.26 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.4152 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c7405e8-780a-418d-bc3e-bc565d3c6f1a")
-		)
-		(pin "2"
-			(uuid "1b1d9ebe-e95e-404d-a571-2168148cd38d")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 34.29 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -7221,9 +7272,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98c7b9c1-f775-42c1-ab99-fba3fd5cdeed")
-		(property "Reference" "C12"
+		(uuid "93e43205-9ae0-4c83-a58c-ae6e70f63d21")
+		(property "Reference" "C31"
 			(at 38.1 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,16 +7328,27 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 38.1 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "d6da71b2-047b-4ca8-9fdc-d0ff94d5f3dc")
+			(uuid "23ac1abc-4621-4e00-a558-096c6a6e1018")
 		)
 		(pin "2"
-			(uuid "a03edbaf-7eab-4508-b8f0-0835671c54ce")
+			(uuid "3fe3e39d-6107-418a-b803-4d44de11b809")
 		)
 		(instances
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C12")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -7533,6 +7594,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 54.61 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a622e80d-a3e8-4dbb-b341-fdd21b8a89e0")
+		(property "Reference" "C35"
+			(at 58.42 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 55.5752 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 54.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 58.42 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0387d2ce-2d03-426b-9ef5-0bfa63d27917")
+		)
+		(pin "2"
+			(uuid "ed268192-d9ef-4367-96f3-82147da0bc2b")
+		)
+		(instances
+			(project "Telemetry Box"
+				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 59.69 110.49 0)
 		(unit 1)
@@ -7620,10 +7773,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a70245eb-de19-49f8-a69b-72d2a487d895")
 		(property "Reference" "C15"
-			(at 105.41 82.55 90)
+			(at 105.41 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7633,7 +7785,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 105.41 85.09 90)
+			(at 105.41 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7667,6 +7819,16 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 105.41 90.17 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 104.902 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7857,88 +8019,6 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 31.75 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adc963cb-dc4d-4562-8a16-a8cb7c0fd4c2")
-		(property "Reference" "C7"
-			(at 35.56 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 35.56 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 32.7152 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e500e8c-fc6c-44ad-9203-bee95f5cdd54")
-		)
-		(pin "2"
-			(uuid "57bacebb-d48f-448c-b88f-ab4c9b6994aa")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8399,6 +8479,16 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 104.902 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1adafa5-a470-4e4e-a137-e85e148c290b")
 		)
@@ -8409,88 +8499,6 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 19.05 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf394ab3-838a-41c8-b026-e9b53e26e42c")
-		(property "Reference" "C5"
-			(at 22.86 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 22.86 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 20.0152 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 19.05 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "318e832a-7a5c-4a17-89d5-e2ed933eb1a9")
-		)
-		(pin "2"
-			(uuid "f3bcfb4c-d515-4e6b-b431-6bb9c43bc5a7")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8570,6 +8578,98 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c281f38d-89ea-4a5b-a227-0e6582f9ae3f")
+		(property "Reference" "C33"
+			(at 37.846 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 37.846 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 43.18 129.8448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 37.846 127.5081 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "976f2224-6033-4213-b26a-604bf6218874")
+		)
+		(pin "2"
+			(uuid "189fce5d-69ec-463a-95ac-3585efd1e1ea")
+		)
+		(instances
+			(project "Telemetry Box"
+				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -8812,168 +8912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 39.37 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfde51a9-2062-47cb-81d0-a3bfe1abdc0a")
-		(property "Reference" "C20"
-			(at 39.37 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 39.37 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 43.18 129.8448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 39.37 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88fe97f5-2a81-4f04-a338-7355f4c11a7a")
-		)
-		(pin "2"
-			(uuid "9fb04422-4f19-4ca4-aee9-3b99faba348c")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 59.69 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da518456-cabc-46de-8162-2424808dc3ae")
-		(property "Reference" "C17"
-			(at 63.5 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 63.5 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 60.6552 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 59.69 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b227ac10-e5e1-450e-9b91-96fde39964e4")
-		)
-		(pin "2"
-			(uuid "6a0fb55a-f258-4ea4-afae-e8b7e986ac65")
-		)
-		(instances
-			(project "Telemetry Box"
-				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 106.68 168.91 0)
 		(unit 1)
@@ -9209,6 +9147,98 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 59.69 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f123bcfd-4848-405f-93f4-db024decbb78")
+		(property "Reference" "C32"
+			(at 63.5 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 63.5 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 60.6552 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 63.5 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4b45c817-1632-4654-a650-afa5a2ecb286")
+		)
+		(pin "2"
+			(uuid "a50cb530-188c-4b21-a24f-81f95b18189e")
+		)
+		(instances
+			(project "Telemetry Box"
+				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 19.05 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -9217,7 +9247,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f15ef5c3-a25a-446f-b106-bef129082acc")
 		(property "Reference" "C6"
 			(at 22.86 60.9599 0)
@@ -9274,6 +9303,16 @@
 				)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 24.892 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d789115a-1284-4c43-adfb-e18138d58a5d")
 		)
@@ -9284,6 +9323,98 @@
 			(project "Telemetry Box"
 				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f415ef2b-ba0d-43a0-a7a0-515d3ee06de6")
+		(property "Reference" "C38"
+			(at 212.09 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 212.09 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 209.2452 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 212.09 145.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a7782db5-58a9-4e2c-82a4-ccfe1291e057")
+		)
+		(pin "2"
+			(uuid "394b4f4a-1db1-4730-aa52-42dc19e676a7")
+		)
+		(instances
+			(project "Telemetry Box"
+				(path "/71a96c1a-3810-48e8-8b77-829a22b612db/bfe823f4-a34f-458f-9f3e-ea6ae3afcb9b"
+					(reference "C38")
 					(unit 1)
 				)
 			)
