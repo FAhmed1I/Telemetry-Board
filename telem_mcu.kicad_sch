@@ -3186,14 +3186,6 @@
 		(uuid "6c70327b-a995-4fc2-90da-2d5cc782ad99")
 	)
 	(no_connect
-		(at 135.89 74.93)
-		(uuid "786f347c-f4e9-4bc9-8819-efa649f25422")
-	)
-	(no_connect
-		(at 176.53 92.71)
-		(uuid "a1299f60-e15c-4af0-8051-d22164e37fef")
-	)
-	(no_connect
 		(at 176.53 115.57)
 		(uuid "bf267cf5-3261-4cc9-b6a6-50814553cac6")
 	)
@@ -3212,10 +3204,6 @@
 	(no_connect
 		(at 135.89 69.85)
 		(uuid "f7a13ed2-33eb-4b46-b4a5-3182d4325bc6")
-	)
-	(no_connect
-		(at 135.89 77.47)
-		(uuid "fd9b0d55-ecbf-4d48-b36c-9357935ae413")
 	)
 	(wire
 		(pts
@@ -3276,16 +3264,6 @@
 			(type default)
 		)
 		(uuid "09b1e015-a35f-43b0-a771-3017184fd4ff")
-	)
-	(wire
-		(pts
-			(xy 132.08 82.55) (xy 135.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ce3052-eab1-464e-8f4c-eae3b418fe34")
 	)
 	(wire
 		(pts
@@ -3909,16 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 64.77) (xy 177.8 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b55616-5726-41e9-8c96-2756e1fbf0a2")
-	)
-	(wire
-		(pts
 			(xy 176.53 72.39) (xy 177.8 72.39)
 		)
 		(stroke
@@ -4139,6 +4107,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 77.47) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2abd840-a114-4716-845d-faef74d71fb3")
+	)
+	(wire
+		(pts
 			(xy 153.67 36.83) (xy 153.67 39.37)
 		)
 		(stroke
@@ -4279,6 +4257,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 74.93) (xy 135.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e827f143-e36e-42e4-8bd5-53520e19eb3d")
+	)
+	(wire
+		(pts
 			(xy 39.37 181.61) (xy 45.72 181.61)
 		)
 		(stroke
@@ -4398,7 +4386,7 @@
 		(uuid "01ffe376-4b50-4f15-9a30-00b9a7d09bd9")
 	)
 	(label "THERM2_ADC"
-		(at 190.5 62.23 180)
+		(at 190.5 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4548,7 +4536,7 @@
 		(uuid "b7a29915-2d32-4c5c-baf4-1b34135d7d6a")
 	)
 	(label "THERM1_ADC"
-		(at 190.5 87.63 180)
+		(at 190.5 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4782,7 +4770,7 @@
 	)
 	(hierarchical_label "GPS_RST"
 		(shape output)
-		(at 132.08 82.55 180)
+		(at 133.35 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4804,12 +4792,12 @@
 	)
 	(hierarchical_label "GPS_TP"
 		(shape input)
-		(at 177.8 64.77 0)
+		(at 133.35 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "de21ede6-bfb6-456f-9acf-b044b14211d4")
 	)

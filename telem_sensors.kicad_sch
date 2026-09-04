@@ -2697,6 +2697,12 @@
 		(uuid "d62d4ddb-24cb-4661-90a0-e35dba2d87c3")
 	)
 	(junction
+		(at 173.99 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "020b4f42-0949-40bc-87d2-d5f0c0668702")
+	)
+	(junction
 		(at 128.27 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2743,12 +2749,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c000437-8cae-4fd0-99ec-628d37a38178")
-	)
-	(junction
-		(at 173.99 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ce422ab-2d06-46dc-bd77-e23917a4498a")
 	)
 	(junction
 		(at 52.07 92.71)
@@ -2811,12 +2811,6 @@
 		(uuid "c5e8edb5-0f57-45c1-a5e2-8dcd431f734c")
 	)
 	(junction
-		(at 73.66 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc72b77a-eb45-4efb-9762-ecbbfc23ab71")
-	)
-	(junction
 		(at 133.35 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2839,6 +2833,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed5db3fd-150e-40e0-bb01-41c2ca8df649")
+	)
+	(junction
+		(at 73.66 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f702924b-3880-4950-a0d9-f69c68cb907d")
 	)
 	(no_connect
 		(at 177.8 104.14)
@@ -3518,6 +3518,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 55.88) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f6850b-8cd8-4796-94cb-eedf1ae48f82")
+	)
+	(wire
+		(pts
 			(xy 118.11 135.89) (xy 124.46 135.89)
 		)
 		(stroke
@@ -3595,16 +3605,6 @@
 			(type default)
 		)
 		(uuid "9f20fc91-e9f1-443f-981c-8da5532211e6")
-	)
-	(wire
-		(pts
-			(xy 173.99 55.88) (xy 173.99 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56ed6c3-4450-40e7-82d3-b51d9abb2014")
 	)
 	(wire
 		(pts
@@ -5507,8 +5507,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 68.58 55.88 0)
-		(mirror y)
+		(at 68.58 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5518,7 +5517,7 @@
 		(dnp no)
 		(uuid "48b55277-a6d7-4159-af63-98ee2086d73a")
 		(property "Reference" "J4"
-			(at 57.404 59.69 0)
+			(at 57.404 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5538,7 +5537,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55935-0230_1x02_P2.00mm_Horizontal"
-			(at 68.58 55.88 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +5548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 55.88 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5559,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 55.88 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
