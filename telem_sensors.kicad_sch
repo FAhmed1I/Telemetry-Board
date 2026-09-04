@@ -3218,6 +3218,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 58.42) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bbdd66-32c0-40d1-be7e-224fc0634702")
+	)
+	(wire
+		(pts
 			(xy 114.3 138.43) (xy 118.11 138.43)
 		)
 		(stroke
@@ -3295,16 +3305,6 @@
 			(type default)
 		)
 		(uuid "6876c41e-98c4-4903-bf2a-b258d54dd266")
-	)
-	(wire
-		(pts
-			(xy 73.66 58.42) (xy 73.66 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b64e049-ba82-4345-90d1-f5f71a744c13")
 	)
 	(wire
 		(pts
@@ -5701,7 +5701,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 68.58 58.42 180)
+		(at 68.58 55.88 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5711,7 +5712,7 @@
 		(dnp no)
 		(uuid "48b55277-a6d7-4159-af63-98ee2086d73a")
 		(property "Reference" "J4"
-			(at 57.404 54.61 0)
+			(at 57.404 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5730,8 +5731,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55935-0230_1x02_P2.00mm_Horizontal"
-			(at 68.58 58.42 0)
+		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55932-0230_1x02_P2.00mm_Vertical"
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,7 +5743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 58.42 0)
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,7 +5754,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 58.42 0)
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6463,7 +6464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55935-0230_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55932-0230_1x02_P2.00mm_Vertical"
 			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
